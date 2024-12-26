@@ -15,7 +15,7 @@ fn main() {
 
         if key == console::Key::ArrowUp     { main_field.move_cursor(-1, 0); }
         if key == console::Key::ArrowDown   { main_field.move_cursor(1,  0); }
-        if key == console::Key::ArrowLeft   { main_field.move_cursor(0,  1); }
+        if key == console::Key::ArrowLeft   { main_field.move_cursor(0, -1); }
         if key == console::Key::ArrowRight  { main_field.move_cursor(0,  1); }
 
         if key == console::Key::Char(' ') {
